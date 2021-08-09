@@ -8,7 +8,7 @@ function Filter({ value, onChange }) {
       Find contacts by name
       <Input type="text" value={value} onChange={onChange} />
     </Label>
-  );
+  )
 }
 
 Filter.propTypes = {
